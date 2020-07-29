@@ -1,0 +1,12 @@
+URxvt.background: rgba:0000/0000/0000/bbbb
+URxvt.depth: 32
+URxvt.foreground: #FFFFFF
+URxvt.scrollBar: false
+URxvt.saveLines: 1000
+URxvt.font: xft:iosevka:pixelsize=11
+
+!! Perl Extensions
+URxvt.perl-ext-common: default,resize-font
+URxvt.keysym.C-j: resize-font:smaller
+URxvt.keysym.C-k: resize-font:bigger
+URxvt.keysym.C-equal: resize-font:reset
